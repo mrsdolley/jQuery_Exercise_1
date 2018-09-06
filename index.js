@@ -4,11 +4,13 @@ function main() {
 
     $('.big').removeClass('#shrink-me').addClass('#grow-me');
     
-    // $( "li" ).each(function( index ) {
-    //   console.log($( this ).text() );
-    // });
-    
-    $( "li" ).text(console.log);
+    //Without index numbers and quotes
+    $( "li" ).each(function( index ) {
+    console.log($( this ).text() );
+    });
+  
+    //With index numbers and quotes
+    //$( "li" ).text(console.log);
     
     
     $('.link').attr('href',
